@@ -91,6 +91,7 @@ h1 {
     grid-row-end: 8;
 }
 
+/* style for text box at the bottom of the page */
 #clickbox {
     margin: auto;
     text-align: center;
