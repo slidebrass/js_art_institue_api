@@ -11,8 +11,14 @@ html{
     padding: 0;
 }
 
+h1 {
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
 /* Styles for artwork */
-.container{
+#artbox{
     width: 90%;
     margin: 2rem auto;
 }
@@ -83,4 +89,9 @@ html{
     grid-column-end: 12;
     grid-row-start: 5;
     grid-row-end: 8;
+}
+
+#clickbox {
+    margin: auto;
+    text-align: center;
 }

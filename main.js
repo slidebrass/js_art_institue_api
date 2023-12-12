@@ -12,7 +12,7 @@ let art;
 let clickArt;
 
 // Function to get art info when the image is clicked
-async function clickedEvent(img_index, item_index) {
+async function clickedEvent(img_index) {
     // get title of artwork
     let id = document.getElementsByTagName('img')[img_index].attributes[1].value;
 
@@ -32,13 +32,13 @@ async function clickedEvent(img_index, item_index) {
 
     // what are these two statements for?
     console.log(response);
-    let art = response.
+    let data = response.data
 
     // create alert to display details about the artwork
     // alert needs to wait for response
     alert(`Title: ${data.title}, Artist: ${data.artist_title}, Place of Origin: ${data.place_of_origin}, Description: ${data.thumbnail.alt_text}`)
 };
-
+/*
 function getDetails(id, event) {
     switch(id){
         // why stop propagation?
@@ -75,3 +75,4 @@ function getDetails(id, event) {
         };
     };
 };
+*/
