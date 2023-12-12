@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    background-color: darkseagreen;
+    /* background-color: darkseagreen; */
 }
 
 html{
@@ -11,10 +11,22 @@ html{
     padding: 0;
 }
 
+body{
+    background-image: url(static/images/dannie-jing-3GZlhROZIQg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h1 {
     margin: auto;
     text-align: center;
     padding: 30px;
+}
+
+/* style for text box */
+#clickbox {
+    margin: auto;
+    text-align: center;
 }
 
 /* Styles for artwork */
@@ -89,10 +101,4 @@ h1 {
     grid-column-end: 12;
     grid-row-start: 5;
     grid-row-end: 8;
-}
-
-/* style for text box at the bottom of the page */
-#clickbox {
-    margin: auto;
-    text-align: center;
 }
